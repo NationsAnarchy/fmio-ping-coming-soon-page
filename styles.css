@@ -54,7 +54,6 @@ main .subscribe {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 30px;
-    gap: 25px;
     max-width: 600px;
 }
 
@@ -72,6 +71,7 @@ input {
 }
 
 button {
+    border: transparent;
     padding-left: 40px;
     padding-right: 40px;
     background-color: var(--blue);
@@ -123,8 +123,6 @@ footer {
     button {
         margin-top: 10px;
         width: 90%;
-        border: transparent;
-        border-style: solid;
         cursor: pointer;
         border-radius: 25px;
     }
